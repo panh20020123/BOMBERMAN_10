@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1072.0" styleClass="body" stylesheets="@../scenes.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.gui.scenes.menu.menuController">
+   <children>
+      <ImageView layoutX="159.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@../../../../res/img/Frame%205.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="startGame" contentDisplay="CENTER" layoutX="60.0" layoutY="50.0" mnemonicParsing="false" onAction="#startGame" styleClass="menu-btn" textFill="#a65757" AnchorPane.leftAnchor="82.0" AnchorPane.topAnchor="190.0">
+         <font>
+            <Font name="Press Start 2P Regular" size="18.0" />
+         </font>
+         <graphic>
+            <Label styleClass="menu-btn-text" text="PLAY" textFill="#6fe4f9">
+               <font>
+                  <Font name="Press Start 2P Regular" size="18.0" />
+               </font>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="showInstruction" contentDisplay="CENTER" layoutX="70.0" layoutY="60.0" mnemonicParsing="false" onAction="#showHowToPlay" styleClass="menu-btn" AnchorPane.leftAnchor="82.0" AnchorPane.topAnchor="250.0">
+         <font>
+            <Font name="Press Start 2P Regular" size="18.0" />
+         </font>
+         <graphic>
+            <Label styleClass="menu-btn-text" text="HOW TO PLAY" textFill="#6fe4f9">
+               <font>
+                  <Font name="Press Start 2P Regular" size="18.0" />
+               </font>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="showHighscore" contentDisplay="CENTER" layoutX="82.0" layoutY="310.0" mnemonicParsing="false" onAction="#showHighscore" styleClass="menu-btn" AnchorPane.leftAnchor="82.0" AnchorPane.topAnchor="310.0">
+         <font>
+            <Font name="Press Start 2P Regular" size="18.0" />
+         </font>
+         <graphic>
+            <Label styleClass="menu-btn-text" text="HIGH SCORE" textFill="#6fe4f9">
+               <font>
+                  <Font name="Press Start 2P Regular" size="18.0" />
+               </font>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="quit" contentDisplay="CENTER" layoutX="82.0" layoutY="368.0" mnemonicParsing="false" onAction="#quit" styleClass="menu-btn" AnchorPane.leftAnchor="82.0" AnchorPane.topAnchor="370.0">
+         <font>
+            <Font name="Press Start 2P Regular" size="18.0" />
+         </font>
+         <graphic>
+            <Label styleClass="menu-btn-text" text="QUIT" textFill="#6fe4f9">
+               <font>
+                  <Font name="Press Start 2P Regular" size="18.0" />
+               </font>
+            </Label>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

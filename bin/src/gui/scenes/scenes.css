@@ -1,0 +1,68 @@
+.body {
+	-fx-background-color: #000;
+}
+
+/* loading */
+.progress-bar {
+	-fx-accent: #fff;
+}
+
+.progress-bar > .track {
+	-fx-control-inner-background: #000;
+}
+
+.progress-bar > .bar {
+}
+
+/* menu */
+.menu-btn {
+	-fx-padding: 13 50 7 20;
+	-fx-font-family: 'Press Start 2P';
+	-fx-font-size: 16;
+	-fx-background-color: #0b2364;
+	-fx-background-radius: 15;
+}
+
+.menu-btn-text {
+	-fx-text-fill: #6fe4f9;
+}
+
+.menu-btn:hover {
+	-fx-background-color: #66addf;
+}
+
+.menu-btn:hover .menu-btn-text {
+	-fx-text-fill: #fff;
+}
+
+.game-background {
+	-fx-background-color: #1d1131;
+}
+
+.game-btn {
+	-fx-padding: 13 20 7 20;
+	-fx-font-family: 'Press Start 2P';
+	-fx-font-size: 16;
+	-fx-background-color: #0b2364;
+	-fx-background-radius: 15;
+}
+
+.game-btn-text {
+	-fx-text-fill: #6fe4f9;
+}
+
+.game-btn:hover {
+	-fx-background-color: #66addf;
+}
+
+.game-btn:hover .game-btn-text {
+	-fx-text-fill: #fff;
+}
+
+#volume-btn {
+	-fx-padding: 10 20 10 20;
+	-fx-font-family: 'Press Start 2P';
+	-fx-font-size: 16;
+	-fx-background-color: #0b2364;
+	-fx-background-radius: 15;
+}

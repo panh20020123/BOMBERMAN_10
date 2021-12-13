@@ -1,0 +1,5 @@
+600 nhom 10
+0 test 0
+0 test 0
+0 test 0 2
+0 test 0 2

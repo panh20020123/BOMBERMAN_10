@@ -1,0 +1,8 @@
+Chú robot sử dụng bom để tìm cánh cửa bị vùi lấp trong đống gạch đá. 
+Bom cũng là vũ khí duy nhất có thể "KABOOM" những sinh vật lạ trong mê cung. 
+Khi đã tìm ra cánh cửa, đừng bao giờ thử thách độ bền của của cánh cửa này, 
+các sinh vật trong mê cung chắc hẳn sẽ cảm ơn bạn vì điều này.
+
+	Để di chuyển sử dụng các nút trên bàn phím:
+			 	⬆ ⬇ ⬅ ➡
+		Đặt bom tiêu diệt kẻ địch: Space
